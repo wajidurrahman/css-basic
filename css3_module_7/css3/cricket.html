@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ball{
+            height: 40px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            left: 640px;
+            transition: transfrom 2s ease-in-out 0.3s;
+        }
+        .fild:hover .ball{
+            transform: translate(1000px, -200px);
+        }
+.bet{
+ transition: transfrom 0.2s ease-in-out;
+}
+.bet:hover{
+    transform: rotate(-60deg);
+    transform-origin:100% 0% ;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+    <div class="fild">
+        <img class="bet" src="bet.jpg" alt="">
+        <div class="ball">
+
+        </div>
+    </div>
+</body>
+</html>

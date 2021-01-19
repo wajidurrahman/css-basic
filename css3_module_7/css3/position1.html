@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{
+            display: flex;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            background-color: steelblue;
+
+        }
+        .box-2{
+            /*position: relative;
+            left:180px;
+             upre z-indx:2;*/
+            position: absolute;
+            top: 50px;
+        }
+        .box-3{
+            z-index: 1;
+            border: 1px solid tomato;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>position</h1>
+    <h3>more positon</h3>
+    <section class="contianer">
+        <div class="box box-1">
+            <h3>box-1</h3>
+        </div>
+        <div class="box box-2">
+            <h3>box-2</h3>
+        </div>
+        <div class="box box-3">
+            <h3>box-3</h3>
+        </div>
+        <div class="box box-4">
+            <h3>box-4</h3>
+        </div>
+    </section>
+    
+</body>
+</html>

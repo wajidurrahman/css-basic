@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width:300px;
+            height: 200px;
+            border:10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-frame:hover .photo img{
+             transform: scale(1.2);
+            /* transform: rotate(360deg); */
+            transition: transform 2s;
+        }
+        .photo-details{
+            position: absolute;
+            display: none;
+            width: 300px;
+            height: 200px;
+            top: 0;
+        }
+        .photo-frame:hover .photo-details{
+          display: block; 
+          background-color:#ad841ab6;
+        }
+        .photo-frame:hover .photo-details h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>my photo book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+          
+            <div class="photo-details">
+                <h3>Royel Bangal Tiger</h3>
+                <p>Et tempor nonumy invidunt ipsum sanctus et stet clita ea. Et invidunt ipsum dolore elitr diam dolore sadipscing erat diam..</p>
+            </div>
+        </div>
+
+
+    </section>
+    
+</body>
+</html>
